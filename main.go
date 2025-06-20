@@ -10,7 +10,7 @@ import (
 func main() {
 	//初始化logger
 	global.Log = core.InitLogger()
-	core.MysqlInit()
+	// core.MysqlInit()
 	fmt.Println(core.RedisInit())
 
 }
