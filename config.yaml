@@ -24,3 +24,9 @@ mysql:
   charset: utf8
   maxIdle: 50
   maxOpen: 150
+
+#redis配置
+redis:
+  address: 127.0.0.1:6379
+  password:
+  db: 0
